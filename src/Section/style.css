@@ -1,0 +1,90 @@
+.section {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.section--tasks {
+    margin-top: 0px;
+}
+
+.section__paragraph {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.section__paragraph--taskList {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+
+.section__taskInput {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+
+    .section__buttonsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+.section__container {
+    grid-column: 2;
+}
+
+.section__buttonToggleHideDone {
+    color: rgb(0, 167, 179);
+    border: none;
+    background-color: white;
+    transition: 1s;
+    padding-bottom: 1px;
+}
+
+.section__buttonToggleHideDone:active {
+    color: red;
+}
+
+.section__buttonToggleHideDone:hover {
+    color: rgb(18, 112, 119);
+}
+
+.section__buttonDoneAll {
+    color: rgb(0, 167, 179);
+    border: none;
+    background-color: white;
+    transition: 1s;
+    padding-bottom: 1px;
+}
+
+.section__buttonDoneAll:active {
+    color: red;
+}
+
+.section__buttonDoneAll:hover {
+    color: rgb(18, 112, 119);
+}
+
+.section__buttonDoneAll:disabled {
+    color: rgb(226, 222, 222);
+
+}
