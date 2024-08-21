@@ -19,7 +19,7 @@ const tasks = [
   },
 ];
 
-const hideDone = false;
+const hideDoneTask = false;
 
 function App() {
   return (
@@ -29,8 +29,8 @@ function App() {
 
       <Section
         title="Lista zadań"
-        body={<Tasks tasks={tasks} hideDone={hideDone} />}
-        extraHeaderContent={<Buttons tasks={tasks} hideDone={hideDone} />}
+        body={<Tasks tasks={tasks} hideDoneTask={hideDoneTask} />}
+        extraHeaderContent={<Buttons tasks={tasks} hideDoneTask={hideDoneTask} />}
       />
     </Container>
   );
