@@ -8,7 +8,7 @@ const Form = () => (
       name="addTask"
       placeholder="Co jest do zrobienia?"
     />
-    <button class="form__button js-form__button">Dodaj zadanie</button>
+    <button class="form__button">Dodaj zadanie</button>
   </form>
 );
 

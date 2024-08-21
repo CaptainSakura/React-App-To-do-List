@@ -12,7 +12,7 @@
     padding-bottom: 10px;
 }
 
-.section__paragraph--taskList {
+.section__body {
     padding-bottom: 20px;
     padding-right: 20px;
     margin-top: 0px;
@@ -21,6 +21,12 @@
 .section__taskInput {
     font-weight: 400;
     padding: 5px;
+}
+
+.section__title {
+    padding: 15px;
+    margin: 5px;
+    text-align: left;
 }
 
 .section__header {
